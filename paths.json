@@ -1,22 +1,22 @@
 {
   "mappings": [
-    "/content/ibx/language-masters/en:/",
-    "/content/ibx/language-masters/en/:/en/",
-    "/content/ibx/language-masters/fr/:/fr/",
-    "/content/ibx/language-masters/fr:/fr",
-    "/content/ibx/language-masters/es/:/es/",
-    "/content/ibx/language-masters/es:/es",
-    "/content/ibx/language-masters/ja/:/ja/",
-    "/content/ibx/language-masters/ja:/ja",
-    "/content/ibx/language-masters/de/:/de/",
-    "/content/ibx/language-masters/de:/de",
-    "/content/ibx/configuration:/.helix/config.json",
-    "/content/ibx/metadata:/metadata.json",
-    "/content/ibx/redirects:/redirects.json",
-    "/content/ibx/placeholders:/placeholders.json"
+    "/content/ibxdotcom/language-masters/en:/",
+    "/content/ibxdotcom/language-masters/en/:/en/",
+    "/content/ibxdotcom/language-masters/fr/:/fr/",
+    "/content/ibxdotcom/language-masters/fr:/fr",
+    "/content/ibxdotcom/language-masters/es/:/es/",
+    "/content/ibxdotcom/language-masters/es:/es",
+    "/content/ibxdotcom/language-masters/ja/:/ja/",
+    "/content/ibxdotcom/language-masters/ja:/ja",
+    "/content/ibxdotcom/language-masters/de/:/de/",
+    "/content/ibxdotcom/language-masters/de:/de",
+    "/content/ibxdotcom/configuration:/.helix/config.json",
+    "/content/ibxdotcom/metadata:/metadata.json",
+    "/content/ibxdotcom/redirects:/redirects.json",
+    "/content/ibxdotcom/placeholders:/placeholders.json"
   ],
   "includes": [
-    "/content/ibx/",
-    "/content/dam/ibx/"
+    "/content/ibxdotcom/",
+    "/content/dam/ibxdotcom/"
   ]
 }
