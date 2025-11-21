@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p153659-e1614585.adobeaemcloud.com/bin/franklin.delivery/jsalazaratadobe/ibx/main"
+    url: "https://author-p153659-e1614585.adobeaemcloud.com/bin/franklin.delivery/jsalazaratadobe/ibxdotcom/main"
     type: "markup"
     suffix: ".html"
