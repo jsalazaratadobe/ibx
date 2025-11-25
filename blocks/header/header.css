@@ -53,7 +53,7 @@ header nav[aria-expanded='true'] {
 .wehealthcare-theme header nav[aria-expanded='true'] {
   min-height: 0;
   overflow: visible;
-  padding: 0;
+  /* padding: 0; */
   height: auto;
 }
 
