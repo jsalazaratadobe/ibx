@@ -322,6 +322,11 @@ export function decorateDMImages(main) {
         if(blockBeingDecorated){
             blockName = Array.from(blockBeingDecorated.classList).find(className => className !== 'block');
         }
+       const videoExtensions = ['.mp4', '.mov', '.avi', '.webm', '.ogg', '.m4v', '.mkv'];
+       const isVideoAsset = videoExtensions.some(ext => url.href.toLowerCase().includes(ext));
+       // Skip blocks that handle their own image decoration
+       const excludedBlocks = ['video', 'carousel', 'cards'];
+       if (isVideoAsset || excludedBlocks.includes(blockName)) return;
         if(blockName && blockName === 'dynamicmedia-image'){
           rotate = blockBeingDecorated?.children[3]?.textContent?.trim();
           flip = blockBeingDecorated?.children[4]?.textContent?.trim();
